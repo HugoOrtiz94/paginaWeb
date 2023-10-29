@@ -1,7 +1,17 @@
 body {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background:rgb(72, 81, 244);
 }
+
 h2{
     color: white
 }
+
+footer {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(10, 2, 157) 0%, rgb(56, 22, 165) 37%, rgba(25, 7, 216, 0.74) 48%, rgb(25, 6, 239) 71%); /* Color de fondo del footer */
+    color: #fff; /* Color del texto del footer */
+    padding: 20px; /* Espacio interno del footer */
+    width: 100%; /* Ancho completo */
+    position: none; /* Fijar el footer en la parte inferior de la pantalla */
+    bottom: 0; /* Alinear el footer en la parte inferior */
+  }
